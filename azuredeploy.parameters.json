@@ -1,0 +1,23 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "vlivech"
+    },
+    "dnsLabelPrefix": {
+      "value": "simpleubuntusecurevm"
+    },
+    "sshKeyData": {
+      "value": "ssh-rsa
+      AAAAB3NzaC1yc2EAAAADAQABAAACAQDT16Yk1WMUxuBEpirbEhGI6gvPOt2qGAXbIBwtPycPvv8iTnGo1owzJqRC2c9XJlR+DvuYKMXCKopA4QjjtVIKMNpPUDkZKob6aFemtslVltpsGmRpFHZf1D44HmnyhpJDapjQIlwnjRnJ3D88+dK9v+8FCJiVVcOA8pIkhHHzoZMNxGXwFIFpGWzrIpOwFuR3muOwh5GtSWzc0OiBGRcUrziKcf/ceniMFM5QFcKZhPXTTwDz0R26cV5I77727fNbq8FnaisIcrS453GacxZ78GJT/0rXaA7xZ0YMOqYQ0oWQQmWsDxXaW6vprecLHIvUYBwdmFaxhTjizx38UojT7TtdDwCAxauGNZpe6F9NMpS9L3pg3ECjUzjriXS4EjQw1lIZKQvDWqzeCvEypMzbekRIWHjLXdc2mZeo9LoaGN85LhUAMdy+7ndqXCWJ5PXxgl4KjyIx3tGV8JsmyvyVYVRN2IBfSHf9WESkGY2s4exZ4x5RMIW0Df3iw1xXSQzr0PEk7FkOySqYamIpJ8vsP0F8SN5D1p+mh2TutsqrbDl03J2rWhh0xQMayoU4dGWOfBdMyENbxvMtkkpokPuv6104X+nRW8NMiFjne7xleT7YL8shUoJjsdAUJUjWCl27rb8taoWVPyNwSIskyEQUfmQ2rrHBEA/nQMtdiy7GuQ==
+      temp@key"
+    },
+    "vmSize": {
+      "value": "Standard_A2"
+    },
+    "vmName": {
+      "value": "sshvm"
+    }
+  }
+}
